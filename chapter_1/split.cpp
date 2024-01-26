@@ -34,3 +34,4 @@ int main () {
   vector<string> a = split(s, d);
   for(string b: a) cout << b << '\n';
 }
+
