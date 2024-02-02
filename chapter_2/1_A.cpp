@@ -69,9 +69,10 @@ int main() {
     for(int i = 0; i < 7; i++) {
       sum += a[i];
     }
+    // 합이 100임을 만족하면 loop break;
     if(sum == 100) break;
   }while (next_permutation(a, a+ 9));
-  
+  // 출력
   for (int i = 0; i < 7; i++) {
     cout << a[i] << " ";
   }
