@@ -7,7 +7,7 @@
       "request": "launch",
       "args": [],
       "cwd": "/Users/kimdonghyeon/kimddakki/C-_inflearn/chapter_2",
-      "program": "/Users/kimdonghyeon/kimddakki/C-_inflearn/chapter_2/build/Debug/outDebug"
+      "program": "/Users/kimdonghyeon/kimddakki/C-_inflearn/chapter_2/build/Debug/outDebug",
     }
   ]
 }
