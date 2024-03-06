@@ -21,12 +21,12 @@ int main() {
 
     if((x1 == x2) && (y1 == y2) && (r1 == r2)) {
       cout << -1 << "\n";
-      exit(0);
+      continue;
     }
 
     if((x1 == x2) && (y1 == y2) && (r1 != r2)) {
       cout << 0 << "\n";
-      exit(0);
+      continue;
     }
 
     double length = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
