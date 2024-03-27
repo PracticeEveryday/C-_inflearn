@@ -24,8 +24,9 @@ int main() {
                   << reinterpret_cast<uintptr_t>(&pair.second) << "\n";
     }
 
-    cout << mp[30] << "\n"; // 여기서 에러가나
-
+    cout << mp[30] << "\n"; 
+    cout << mp[25] << "\n"; 
+    mp[22];
     auto it = mp.find(3);
     
     if (it != mp.end()) {
@@ -33,6 +34,9 @@ int main() {
     } else {
         cout << "키 3에 해당하는 값이 맵에 없습니다." << endl;
     };
+
+    for(auto i: mp) cout << i.first << " : " << i.second << " ";
+    cout << "\n";
 
     return 0;
 }
